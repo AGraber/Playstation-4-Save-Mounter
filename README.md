@@ -1,23 +1,23 @@
-# Playstation 4 Save Mounter 1.5
+# Playstation 4 Save Mounter 1.7
 
 ## Summary
 This program allows you to mount save data with RW permission and a lot more shit, just read this damn thing
 ### You can
-* Make decrypted copies of any save (as long as it's encrypted with keys <= 5.05)
+* Make decrypted copies of any save (as long as it's encrypted with keys <= 7.0x)
 * Replace saves with modified ones
 * Replace save files with someone else's save files (share saves)
 * Create new saves
-* Export saves to 5.05+ consoles
+* Export saves to 7.0x+ consoles
 
 ### You can't
-* Replace save files with an encrypted save (if it's encrypted with keys > 5.05)
+* Replace save files with an encrypted save (if it's encrypted with keys > 7.0x)
 * Use this on unexploited consoles
 
 ### You need
 * To make sure you're using a recent ps4debug version, bin of the latest ps4debug (as of 11/14) is included in the download
 * To be able to run .net framework 2.0 executables (even windows 98 can run this)
 ## Prerequisites
-* PS4 5.05
+* PS4 7.0x
 * FTP Client (eg filezilla, ...)
 ## Instructions
 
@@ -43,7 +43,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 8) Use the slider to choose the save's size
 9) Click 'Create Save'
 10) Click 'Search' to refresh the save list
-### Exporting Saves to 5.05+ consoles
+### Exporting Saves to 7.0x+ consoles
 1)  mount the save you want to export.
 2)  get the param.sfo file from the sce_sys directory
 3)  open it in a hex editor or a ps4 compatible sfo editor
@@ -51,7 +51,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 5)  save the param.sfo & replace the one in the mounted dir
 6)  unmount the save and copy the 2 save files sdimg & the .bin to your usb /PS4/SAVEDATA/{psn id}/{titleid}/
 7)  remove the sdimg_ prefix from the filename
-8)  now you should be able to copy the save to the account linked to the psn id (5.05+ console) using system settings
+8)  now you should be able to copy the save to the account linked to the psn id (7.0x+ console) using system settings
 ## Important
 
 **- you don't need to start a game to modify its saves, it's actually better not to have one open because some games like gow 4 may overwrite parts of a save while you're busy modifying it resulting in a corrupted save.**
@@ -70,7 +70,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 ### Do note that not all of these were made using the latest save mounter version so slight differences are to be expected.
 
 ### Videos
-  * exporting saves to 5.05+ consoles (latest version 1.5): [how to resign PS4 saves for different PS4 and profile, fw 5 05 and higher by 'Old Gamer'](https://www.youtube.com/watch?v=OpZ9C-MciZM)
+  * exporting saves to 7.0x+ consoles (latest version 1.7): [how to resign PS4 saves for different PS4 and profile, fw 5 05 and higher by 'Old Gamer'](https://www.youtube.com/watch?v=OpZ9C-MciZM)
 
   * mounting saves, transferring saves to other (regions/title ids) (old version): [PS4 Save Mounter Tutorial (Swap Saves Between Consoles & Games) by 'MODDED WARFARE'](https://www.youtube.com/watch?v=m_h4MsAaXdY)
 
