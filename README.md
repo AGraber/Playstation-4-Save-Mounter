@@ -22,8 +22,8 @@ This program allows you to mount save data with RW permission and a lot more shi
 ## Instructions
 
 ### Mounting saves
-1) Load [ps4debug](https://github.com/xemio/ps4debug)
-2) Load [FTP](https://github.com/xvortex/ps4-ftp-vtx)
+1) Load [ps4debug](https://github.com/ChendoChap/ps4debug)
+2) Load [FTP](https://github.com/Scene-Collective/ps4-ftp)
 3) Open the tool
 4) Enter the ip of your ps4 and click 'Connect'
 5) Click 'Setup' & select the user you want to use in the combobox
@@ -33,8 +33,8 @@ This program allows you to mount save data with RW permission and a lot more shi
 9) Your save is now mounted and accessible from ftp in /mnt/pfs/ & in /mnt/sandbox/NPXS20001_000/savedataX (it's the same just a different dir)
 10) After you're done copying/replacing files click 'Unmount'
 ### Creating saves
-1) Load [ps4debug](https://github.com/xemio/ps4debug)
-2) Load [FTP](https://github.com/xvortex/ps4-ftp-vtx)
+1) Load [ps4debug](https://github.com/ChendoChap/ps4debug)
+2) Load [FTP](https://github.com/Scene-Collective/ps4-ftp)
 3) Open the tool
 4) Enter the ip of your ps4 and click 'Connect'
 5) Click 'Setup' & select the user you want to use in the combobox
