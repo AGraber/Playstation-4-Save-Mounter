@@ -206,7 +206,7 @@ namespace PS4Saves
             
             //SHELLCORE PATCHES (SceShellCore)
             ps4.WriteMemory(s.pid, ex.start + 0x01334060, (byte)0x00); // 'sce_sdmemory' patch
-            ps4.WriteMemory(s.pid, ex.start + 0x0084A2C0, new byte[]{0x48, 0x31, 0xC0, 0xC3}); //verify keystone patch
+            ps4.WriteMemory(s.pid, ex.start + 0x0084A370, new byte[]{0x48, 0x31, 0xC0, 0xC3}); //verify keystone patch
             ps4.WriteMemory(s.pid, ex.start + 0x0006B860, new byte[] {0x31, 0xC0, 0xC3}); //transfer mount permission patch eg mount foreign saves with write permission
             ps4.WriteMemory(s.pid, ex.start + 0x000C7280, new byte[] { 0x31, 0xC0, 0xC3 });//patch psn check to load saves saves foreign to current account
             ps4.WriteMemory(s.pid, ex.start + 0x0006D26D, new byte[] { 0x90, 0x90 }); // ^
