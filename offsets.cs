@@ -7,13 +7,13 @@ namespace PS4Saves
     class offsets
     {
 		//libSceUserService
-        public const int sceUserServiceGetInitialUser = 0x00003390;
-        public const int sceUserServiceGetLoginUserIdList = 0x00002B80;
-        public const int sceUserServiceGetUserName = 0x000045B0;
+        public const int sceUserServiceGetInitialUser = 0x000033B0;
+        public const int sceUserServiceGetLoginUserIdList = 0x00002BB0;
+        public const int sceUserServiceGetUserName = 0x000045D0;
 		//libSceSaveData
-        public const int sceSaveDataMount = 0x00028F90;
-        public const int sceSaveDataUmount = 0x00029740;
-        public const int sceSaveDataDirNameSearch = 0x0002A520;
-        public const int sceSaveDataInitialize3 = 0x00028E00;
+        public const int sceSaveDataMount = 0x00028440;
+        public const int sceSaveDataUmount = 0x00028BF0;
+        public const int sceSaveDataDirNameSearch = 0x000299D0;
+        public const int sceSaveDataInitialize3 = 0x000282B0;
     }
 }
