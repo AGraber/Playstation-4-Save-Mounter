@@ -1,4 +1,4 @@
-# Playstation 4 Save Mounter 1.7
+# Playstation 4 Save Mounter 1.8
 
 ## Summary
 This program allows you to mount save data with RW permission and a lot more shit, just read this damn thing
