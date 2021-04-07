@@ -382,7 +382,7 @@
             this.Controls.Add(this.createGroupBox);
             this.Controls.Add(this.connectionGroupBox);
             this.Name = "Main";
-            this.Text = "Playstation 4 Save Mounter 1.8 [ps4debug]";
+            this.Text = "Playstation 4 Save Mounter 1.6 [ps4debug] for testkit";
             this.connectionGroupBox.ResumeLayout(false);
             this.connectionGroupBox.PerformLayout();
             this.createGroupBox.ResumeLayout(false);
