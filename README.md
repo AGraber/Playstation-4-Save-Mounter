@@ -24,7 +24,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 * Use this on unexploited consoles
 
 ### You need
-* To make sure you're using a recent ps4debug version, bin of the latest ps4debug (as of 11/14) is included in the download
+* To make sure you're using a recent ps4debug version, bin of the latest ps4debug (as of 12/21) is included in the download
 * To be able to run .net framework 2.0 executables (even windows 98 can run this)
 ## Prerequisites
 * PS4 9.00
@@ -32,7 +32,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 ## Instructions
 
 ### Mounting saves
-1) Load [ps4debug](https://github.com/Joonie86/ps4debug)
+1) Load ps4debug (9.00 port by Karo bundled on ZIP file release/repository)
 2) Load [FTP](https://github.com/Scene-Collective/ps4-ftp)
 3) Open the tool
 4) Enter the ip of your ps4 and click 'Connect'
@@ -43,7 +43,7 @@ This program allows you to mount save data with RW permission and a lot more shi
 9) Your save is now mounted and accessible from ftp in /mnt/pfs/ & in /mnt/sandbox/NPXS20001_000/savedataX (it's the same just a different dir)
 10) After you're done copying/replacing files click 'Unmount'
 ### Creating saves
-1) Load [ps4debug](https://github.com/Joonie86/ps4debug)
+1) Load ps4debug (9.00 port by Karo bundled on ZIP file release/repository)
 2) Load [FTP](https://github.com/Scene-Collective/ps4-ftp)
 3) Open the tool
 4) Enter the ip of your ps4 and click 'Connect'
